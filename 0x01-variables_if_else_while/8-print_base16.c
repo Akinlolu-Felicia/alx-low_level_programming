@@ -11,10 +11,10 @@ int main(void)
 {
 	char c = '0';
 
-	while (i < '10')
+	while (c <= '9')
 	{
 		putchar(c);
-		i++;
+		c++;
 	}
 	char d = 'a';
 
