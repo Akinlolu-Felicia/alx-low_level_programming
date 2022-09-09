@@ -1,18 +1,20 @@
 #include <stdio.h>
 /**
  * main - main block
- *
- * prints single numbers in base ten
- *
+ * prints all single digit numbers of base 10
+ * starting from 0, followed by a new line.
  * Return: 0
  */
 int main(void)
-{	char c;
-	c = '0';
-	while loop(c <= '9')
-	{	putchar(c)
+{
+	char c = '0';
+
+	while (c <= '9')
+	{
+		putchar(c);
 		c++;
 	}
-	putchar('\n')
+
+	putchar('\n');
 	return (0);
 }
