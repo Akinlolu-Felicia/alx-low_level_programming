@@ -1,21 +1,29 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
- * main - Entry point
+ * main - entry point
  *
- * Return: Always 0 (Success)
+ * Return: 0
+ *
  */
 int main(void)
 {
-int z;
-
-for (z = 48; z <= 57; z++)
-{
-putchar(z);
-}
-for (z = 97; z <= 102; z++)
-{
-putchar(z)
-}
-putchar('\n');
-return (0);
+	char ch = 'a';
+	int i = 48;
+	/* your code goes there */
+	while (i < 58)
+	{
+		putchar(i);
+		i++;
+	}
+	i = 0;
+	while (i < 6)
+	{
+		putchar(ch);
+		ch++;
+		i++;
+	}
+	putchar('\n');
+	return (0);
 }
