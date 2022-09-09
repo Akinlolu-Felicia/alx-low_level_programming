@@ -1,22 +1,22 @@
 #include <stdio.h>
 /**
  * main - main block
- *
- * prints alphabets in lowercase
- *
+ * print alphabet in lowercase
  * Return: 0
  */
 int main(void)
 {
-	char c;
-	c = 'a';
+	char c = 'a';
+
 	while (c <= 'z')
-	{	if (c != 'e' && c != 'q')
-		{	
+	{
+		if (c != 'e' && c != 'q')
+		{
 			putchar(c);
 		}
 		c++;
 	}
+
 	putchar('\n');
 	return (0);
 }
