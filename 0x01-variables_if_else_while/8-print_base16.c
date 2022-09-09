@@ -8,15 +8,20 @@
  *
  */
 int main(void)
-{	int i, y;
+{
+	char c = '0';
 
-	for (i = 0; i < 10; i++;)
+	while (i < '10')
 	{
-		putchar(i + '0');
+		putchar(c);
+		i++;
 	}
-	for (y = 'a' y <= f; y++)
+	char d = 'a';
+
+	while (a <= 'f')
 	{
 		putchar(y);
+		d++;
 	}
 	putchar('\n');
 	return (0);
