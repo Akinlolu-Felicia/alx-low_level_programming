@@ -10,7 +10,7 @@ void print_most_numbers(void)
 {
 	int c;
 
-	for (c = 48; (c >= 48 && c <= 57 && c != 2 && c != 4); c++)
+	for (c = 48; (c >= 48 && c <= 57 || c != 2 && c != 4); c++)
 	{
 		_putchar(c);
 	}
