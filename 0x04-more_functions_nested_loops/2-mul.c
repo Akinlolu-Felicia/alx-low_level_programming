@@ -8,7 +8,7 @@
  *
  * multiply two integers
  *
- * Return: 0
+ * Return: mul
  *
  */
 
@@ -17,5 +17,5 @@ int mul(int a, int b)
 {
 	int mul = a * b;
 
-	return (0);
+	return (mul);
 }
