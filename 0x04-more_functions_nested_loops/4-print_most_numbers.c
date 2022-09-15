@@ -11,10 +11,10 @@ void print_most_numbers(void)
 	int c;
 
 	while (c <= 57)
-	for (c = 48; (c != 2 || c != 4); c++)
+	while (c != 2 || c != 4)
 	{
 		_putchar(c);
-	}
 		c++;
+	}
 	_putchar(10);
 }
