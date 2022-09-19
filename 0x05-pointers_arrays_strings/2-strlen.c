@@ -5,12 +5,18 @@
  *
  * @s: string whose length to be returned
  *
- * Return: 0
+ * Return: int
  *
  */
 
 int _strlen(char *s)
 {
-	strlen(s);
-	return (0);
+	int count;
+
+	while (s[count] != '\0')
+	{
+		count++;
+	}
+
+	return (count);
 }
